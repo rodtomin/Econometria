@@ -12,8 +12,8 @@ library(AER)
 data('alcohol')
 
 #2-Definição o modelo de regressão
-#variável dependente / endógena = abuse (1 se a pessoa está empregada, 0 caso contrário)
-#variável independente / exógena = employ (se a pessoa abusa de álcool, 0 caso contrário)
+#variável dependente / endógena = abuse (1 se a pessoa abusa de álcool, 0 caso contrário) 
+#variável independente / exógena = employ (1 se a pessoa está empregada, 0 caso contrário) 
 
 reg_simples <- lm(employ ~ abuse, data = alcohol )
 summary(reg_simples)
