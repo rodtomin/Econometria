@@ -1,0 +1,15 @@
+1. Introdução
+
+O objetivo deste trabalho é investigar a relação entre abuso de álcool e a probabilidade de estar empregado, utilizando a base de dados alcohol apresentada em Wooldridge (e originalmente em Terza, 2002).
+
+Do ponto de vista econométrico, vamos:
+
+Estimar um modelo de probabilidade linear (OLS) relacionando emprego e abuso de álcool;
+
+Aplicar o teste RESET de Ramsey para avaliar a especificação funcional do modelo OLS;
+
+Discutir a possibilidade de endogeneidade da variável de abuso de álcool;
+
+Estimar um modelo com variáveis instrumentais (2SLS), usando informações sobre impostos e histórico familiar como instrumentos;
+
+Comparar os resultados de OLS e 2SLS e discutir a plausibilidade dos instrumentos.
